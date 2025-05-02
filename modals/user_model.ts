@@ -56,7 +56,7 @@ const userSchema: Schema<IUser> = new mongoose.Schema(
     role: {
       type: String,
 
-      enum:["patient","doctor","diagnostic","hospital","medicine","resort","admin"]
+      enum:["patient","doctor","diagnostic","hospital","medicine","resort","admin","user"]
     },
     isVerified: {
       type: Boolean,
